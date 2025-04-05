@@ -8,11 +8,13 @@ public final class App {
 
     /**
      * Says hello to the world.
+     * 
      * @param args The arguments of the program.
      */
     public static void main(String[] args) {
         menu m = new menu();
 
         m.mostrarMenu();
+        m.recebeEntrada();
     }
 }

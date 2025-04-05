@@ -29,7 +29,7 @@ public class Calculadora {
 
         o = this.ops.get(id);
         resultado = o.calcular(A, B);
-        
+
         return resultado;
     }
 
